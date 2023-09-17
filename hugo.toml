@@ -1,6 +1,6 @@
 baseURL = 'https://icygate.github.io/'
 title = 'Hugo Book'
-# theme = 'hugo-book'
+theme = 'hugo-book'
 languageCode = 'zh-CN'
 # Book configuration
 disablePathToLower = true
