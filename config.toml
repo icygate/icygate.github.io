@@ -1,6 +1,6 @@
 # hugo server --minify --themesDir ../.. --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
-baseURL = 'https://icygate.github.io/'
+baseURL = 'https://www.coolcat.prvcy.page/'
 languageCode = 'zh-CN'
 title = 'My New Hugo Site'
 theme = 'hugo-book'
