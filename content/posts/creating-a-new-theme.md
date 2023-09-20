@@ -1,7 +1,7 @@
 ---
 author: "Michael Henderson"
 date: 2014-09-28
-linktitle: Creating a New Theme 0920
+linktitle: Creating a New Theme 0920-1335
 menu:
   main:
     parent: tutorials
