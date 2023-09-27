@@ -1,6 +1,7 @@
 ---
 title: "测试"
 date: 2023-09-18T23:41:41+08:00
+url: /test1-1/
 # bookComments: false
 # bookSearchExclude: false
 ---
