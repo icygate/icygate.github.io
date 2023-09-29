@@ -3,8 +3,16 @@
   <h1>
     <a href="{{ .RelPermalink }}">{{ partial "docs/title.html" . }}</a>
   </h1>
-  {{ partial "docs/post-meta" . }}
-  {{- .Content -}}
+  {{ if eq .Type "doc"}}
+    {{ partial "docs/post-meta" . }}
+    {{- .Content -}}
+  {{ else }}
+    {{ partial "docs/post-meta" . }}
+    <blockquote class="book-hint info">
+      {{ div .WordCount 1000.0 | lang.FormatNumber 2}}k 字, {{ div .WordCount 400}} 分钟
+    </blockquote>
+    {{- .Content -}}
+  {{ end }}
 </article>
 {{ end }}
 

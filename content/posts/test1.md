@@ -22,3 +22,22 @@ tags:
    add
 
    1. 23
+
+
+* open po list left join pl item list -- **view**
+  add column
+  1. On Time Qty, if on time, then Ship'd Qty, else 0
+  2. Shipped but late, if Late, then Ship'd Qty, else 0
+  3. Not Shipped, if OTD null, then [Open Qty]+[Cancel Balance], else 0
+* gourp by
+  add
+  1. 23
+
+* open po list left join pl item list -- **view**
+  add column
+  1. On Time Qty, if on time, then Ship'd Qty, else 0
+  2. Shipped but late, if Late, then Ship'd Qty, else 0
+  3. Not Shipped, if OTD null, then [Open Qty]+[Cancel Balance], else 0
+* gourp by
+  add
+  1. 23

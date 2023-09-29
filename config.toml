@@ -4,7 +4,7 @@ baseURL = 'https://www.coolcat.prvcy.page/'
 languageCode = 'zh-CN'
 title = '猫啃纸箱'
 theme = 'hugo-book'
-
+hasCJKLanguage = true
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true
