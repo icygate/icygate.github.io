@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Re on 猫啃纸箱</title>
+    <link>https://icygate.github.io/tags/re/</link>
+    <description>Recent content in Re on 猫啃纸箱</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 29 Sep 2023 22:11:14 +0800</lastBuildDate>
+    <atom:link href="https://icygate.github.io/tags/re/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试</title>
+      <link>https://icygate.github.io/test1-1/</link>
+      <pubDate>Mon, 18 Sep 2023 23:41:41 +0800</pubDate>
+      <guid>https://icygate.github.io/test1-1/</guid>
+      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;open po list left join pl item list &amp;ndash; &lt;strong&gt;view&lt;/strong&gt;&#xA;add column&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;On Time Qty, if on time, then Ship&amp;rsquo;d Qty, else 0&lt;/li&gt;&#xA;&lt;li&gt;Shipped but late, if Late, then Ship&amp;rsquo;d Qty, else 0&lt;/li&gt;&#xA;&lt;li&gt;Not Shipped, if OTD null, then [Open Qty]+[Cancel Balance], else 0&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;gourp by&#xA;add&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;23&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;open po list left join pl item list &amp;ndash; &lt;strong&gt;view&lt;/strong&gt;&#xA;add column&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;On Time Qty, if on time, then Ship&amp;rsquo;d Qty, else 0&lt;/li&gt;&#xA;&lt;li&gt;Shipped but late, if Late, then Ship&amp;rsquo;d Qty, else 0&lt;/li&gt;&#xA;&lt;li&gt;Not Shipped, if OTD null, then [Open Qty]+[Cancel Balance], else 0&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;gourp by&#xA;add&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

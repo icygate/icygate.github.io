@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Docs on My New Hugo Site</title>
+    <title>Docs on 猫啃纸箱</title>
     <link>https://icygate.github.io/docs/</link>
-    <description>Recent content in Docs on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="https://icygate.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Docs on 猫啃纸箱</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <atom:link href="https://icygate.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于我</title>
+      <link>https://icygate.github.io/docs/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://icygate.github.io/docs/about/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;&#xA;  About&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#about&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;文笔最好是怼人时&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;订阅本站RSS&lt;/strong&gt;&#xA;  &lt;a href=&#34;https://www.coolcat.prvcy.page/index.xml&#34;&gt;&#xA;  &lt;img src=&#34;https://d18k0na0jwv44a.cloudfront.net/ckeditor/1695996369337-rss.png&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;https://www.coolcat.prvcy.page/index.xml&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
   </channel>
 </rss>

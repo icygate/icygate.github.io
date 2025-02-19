@@ -3,23 +3,30 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Introduction#This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template.">
+<meta name="description" content="
+  Introduction
+  #
+
+This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
+We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="Creating a New Theme" />
-<meta property="og:description" content="Introduction#This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://icygate.github.io/posts/creating-a-new-theme/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2014-09-28T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-09-18T20:23:47+08:00" />
-<title>Creating a New Theme | My New Hugo Site</title>
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="https://icygate.github.io/posts/creating-a-new-theme/">
+  <meta property="og:site_name" content="猫啃纸箱">
+  <meta property="og:title" content="Creating a New Theme">
+  <meta property="og:description" content="Introduction # This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I’ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won’t cover using CSS to style your theme.
+We’ll start with creating a new site with a very basic template. Then we’ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2014-09-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-09-25T22:17:56+08:00">
+<title>Creating a New Theme 0920-1335 | 猫啃纸箱</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" >
-<link rel="stylesheet" href="/book.min.33a48f5432973b8ff9a82679d9e45d67f2c15d4399bd2829269455cfe390b5e8.css" integrity="sha256-M6SPVDKXO4/5qCZ52eRdZ/LBXUOZvSgpJpRVz&#43;OQteg=" crossorigin="anonymous">
+<link rel="stylesheet" href="/book.min.8e9bc848c20c7f751d290c15268eebd4d52c9e61c4750ebbd14726a2c856d31f.css" integrity="sha256-jpvISMIMf3UdKQwVJo7r1NUsnmHEdQ670UcmoshW0x8=" crossorigin="anonymous">
   <script defer src="/flexsearch.min.js"></script>
-  <script defer src="/en.search.min.f4c9c455c7fd0c47452c57d5bb4e56d6a99b132552115544430a46460c0ee97c.js" integrity="sha256-9MnEVcf9DEdFLFfVu05W1qmbEyVSEVVEQwpGRgwO6Xw=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.95b3582427a38cba7165d07c7212e3c33d4f1283c9c149bd67ec8af5ae4865ac.js" integrity="sha256-lbNYJCejjLpxZdB8chLjwz1PEoPJwUm9Z&#43;yK9a5IZaw=" crossorigin="anonymous"></script>
 
   <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk=" crossorigin="anonymous"></script>
 <!--
@@ -37,7 +44,7 @@ https://github.com/alex-shpak/hugo-book
         
   <nav>
 <h2 class="book-brand">
-  <a class="flex align-center" href="/"><span>My New Hugo Site</span>
+  <a class="flex align-center" href="/"><span>猫啃纸箱</span>
   </a>
 </h2>
 
@@ -67,284 +74,14 @@ https://github.com/alex-shpak/hugo-book
   <ul>
     
       
-        <li class="book-section-flat" >
-          
-  
-  
-
-  
-    <a href="/docs/example/" class="">Example Site</a>
-  
-
-          
-  <ul>
-    
-      
         <li>
           
   
   
 
   
-    <a href="/docs/example/table-of-contents/" class="">Table of Contents</a>
+    <a href="/docs/about/" class="">关于我</a>
   
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/example/table-of-contents/with-toc/" class="">With ToC</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/example/table-of-contents/without-toc/" class="">Without ToC</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <input type="checkbox" id="section-4e46b01272d410b3a99461d79326ddf4" class="toggle"  />
-    <label for="section-4e46b01272d410b3a99461d79326ddf4" class="flex justify-between">
-      <a role="button" class="">Collapsed</a>
-    </label>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/example/collapsed/3rd-level/" class="">3rd Level</a>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/example/collapsed/3rd-level/4th-level/" class="">4th Level</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li class="book-section-flat" >
-          
-  
-  
-
-  
-    <span>Shortcodes</span>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/shortcodes/buttons/" class="">Buttons</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/shortcodes/columns/" class="">Columns</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/shortcodes/details/" class="">Details</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/shortcodes/expand/" class="">Expand</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/shortcodes/hints/" class="">Hints</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/shortcodes/katex/" class="">Katex</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/shortcodes/mermaid/" class="">Mermaid</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <input type="checkbox" id="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="toggle"  />
-    <label for="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="flex justify-between">
-      <a href="/docs/shortcodes/section/" class="">Section</a>
-    </label>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/shortcodes/section/first-page/" class="">First Page</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/shortcodes/section/second-page/" class="">Second Page</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="/docs/shortcodes/tabs/" class="">Tabs</a>
-  
-
-        </li>
-      
-    
-  </ul>
 
         </li>
       
@@ -359,30 +96,6 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-
-
-  
-<ul>
-  
-  <li>
-    <a href="/posts/"  >
-        Blog
-      </a>
-  </li>
-  
-  <li>
-    <a href="https://github.com/alex-shpak/hugo-book"  target="_blank" rel="noopener">
-        Github
-      </a>
-  </li>
-  
-  <li>
-    <a href="https://themes.gohugo.io/hugo-book/"  target="_blank" rel="noopener">
-        Hugo Themes
-      </a>
-  </li>
-  
-</ul>
 
 
 
@@ -409,7 +122,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Creating a New Theme</strong>
+  <strong>Creating a New Theme 0920-1335</strong>
 
   <label for="toc-control">
     
@@ -499,9 +212,10 @@ https://github.com/alex-shpak/hugo-book
       
 <article class="markdown">
   <h1>
-    <a href="/posts/creating-a-new-theme/">Creating a New Theme</a>
+    <a href="/posts/creating-a-new-theme/">Creating a New Theme 0920-1335</a>
   </h1>
   
+    
   <h5>September 28, 2014</h5>
 
 
@@ -512,7 +226,10 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-<h2 id="introduction">
+
+    <blockquote class="book-hint info">
+      7.28k 字, 18 分钟
+    </blockquote><h2 id="introduction">
   Introduction
   <a class="anchor" href="#introduction">#</a>
 </h2>
@@ -1452,32 +1169,14 @@ $ vi themes/zafta/layouts/_default/single.html
   <a class="anchor" href="#dont-repeat-yourself">#</a>
 </h3>
 <p>DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&rsquo;re figuring that out, accept that you&rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&rsquo;s okay to delay splitting up a template.</p>
+
 </article>
  
       
 
       <footer class="book-footer">
         
-  <div class="flex flex-wrap justify-between">
-
-
-  <div><a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/commit/11331be4a9df5a65be054f752291d96d7701528d" title='Last modified by icygate | September 18, 2023' target="_blank" rel="noopener">
-      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>September 18, 2023</span>
-    </a>
-  </div>
-
-
-
-  <div>
-    <a class="flex align-center" href="https://github.com/alex-shpak/hugo-book/edit/main/exampleSite/content/posts/creating-a-new-theme.md" target="_blank" rel="noopener">
-      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
-      <span>Edit this page</span>
-    </a>
-  </div>
-
-
-</div>
+  <div class="flex flex-wrap justify-between"></div>
 
 
 
