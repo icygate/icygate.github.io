@@ -6,7 +6,7 @@ title = '猫啃纸箱'
 theme = 'hugo-book'
 hasCJKLanguage = true
 summaryLength = 150
-paginate = 5
+pagination.pagerSize = 5
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true
